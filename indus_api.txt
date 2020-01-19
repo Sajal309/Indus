@@ -1,0 +1,39 @@
+/exists/{number} -- number exists or not
+
+/getotp/{number} --- getOTP
+
+/login -- login user
+
+/sign_up -- sign up user
+
+/products/{grp_id} -- get products by grp_id
+
+/group/{prd_id} -- get group by prd_id
+
+/cart -- add product to cart
+
+/cart/{prd_id}/{user_id} -- delete product from cart
+
+/user_details/{user_id} -- get user_details by user_id
+
+/bookmark/{prd_id}/{user_id} -- bookmark a product
+
+/bookmark/{prd_id}/{user_id} -- delete a bookmarked product
+
+/categories -- get categories
+
+/start -- homepage api
+
+/products/discount/{off} -- products page api (discount)
+
+/products/category/{category} -- products page api (categories)
+
+/products/sub_category/{sub_category} -- products page api (sub_categories)
+
+/products/type/{type} -- products page api (type)
+
+/place_order/{user_id} -- place an order
+
+/order_details/{user_id} -- get order details
+
+

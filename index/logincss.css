@@ -1,0 +1,112 @@
+@media only screen and (max-width:550px) {
+   #main{
+       width:100%;
+   }
+  .container{
+     	width:100%;
+        height:445px;
+  }
+}
+@media only screen and (min-width: 550px) {
+   #main{
+       width: 100%;
+       padding: 80px;
+   }
+  .container{
+    width:390px;
+    height:445px;
+  }
+}
+    textarea:focus, input:focus, button:focus{
+        outline: none;
+    }
+    .material-icons, .icon-text {
+      vertical-align: middle;
+      padding-bottom:3px;
+    }
+    #header{  
+        background:white;
+        width:100%;
+        border-bottom:1px solid rgb(200,200,200);
+        display: inline-flex;
+        padding: 5px 0px 5px 0px;
+    }
+    #header_icon{
+        font-size: 28px;
+        color: rgb(52, 52, 49);
+    }
+    #back{
+        padding:5px;
+        text-align:center;
+        width:10%;
+    }
+    #title{
+        width: 80%;
+        text-align: center;
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 1px;
+        font-size: 17px;
+        padding:10px 0px;
+        color:rgb(52, 52, 49);
+        font-weight: 700;
+    }
+    #main{
+       background-image: linear-gradient(180deg, #fdfcfb 0%, #e2d1c3 100%);
+    }
+   .container {
+        position: relative;
+        text-align: center;
+        color: white;
+     	background:white;
+    }
+    #img{
+        padding:50px 25px 0px 25px;
+        width:300px;
+    }
+    .centered {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+   #actions{ 
+        padding:0px 0px;
+        display: block; 
+    }
+    #save{
+        border-radius: 4px;
+        margin: 20px 5px;
+        font-weight: 500;
+        font-family: 'Roboto',sans-serif;
+        color:white;
+        width: 330px;
+        padding:7px 25px;
+        background:#ef4023;
+        border:1px solid #ef4023;
+    }
+    #input_div{
+        
+        margin: 10px 5px;
+        color:rgb(100,100,100);
+        display: inline-flex;
+    }   
+    #number{
+        font-weight: 500;
+        font-family: 'Roboto',sans-serif;
+        color:rgb(30,30,30);
+        padding:5px 5px 5px 5px;
+        margin-left:7px;
+        width:290px;  
+        vertical-align: center;
+        border: none; 
+        border-bottom: 0.5px solid rgb(0,0,0,0.5);
+   }  
+   #description{
+        font-weight:300;
+        font-size:13px;
+        color:rgb(120,120,120);
+        line-height: 0.5;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        padding: 10px 10px 20px 10px;
+    }

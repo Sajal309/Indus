@@ -1,0 +1,6 @@
+epiz_22469865_indus -- dbname
+epiz_22469865 -- username
+sql305.epizy.com -- hostname
+epjc3nJ1DE3NHlJ or cpanel password -- password
+
+$GLOBALS['api'] = "http://indus101.rf.gd/Indus/Api"; -- host
